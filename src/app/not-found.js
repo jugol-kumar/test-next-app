@@ -1,7 +1,3 @@
-'use client' // Error boundaries must be Client Components
- 
-import { useEffect } from 'react'
- 
 export default function NotFound({ error, reset }) {
  
   return (
