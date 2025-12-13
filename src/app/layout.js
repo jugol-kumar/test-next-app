@@ -35,6 +35,9 @@ export default function RootLayout({ children }) {
             <li>
               <Link href="/contact" className="hover:text-purple-600">Contact</Link>
             </li>
+            <li>
+              <Link href="/blog" className="hover:text-purple-600">Blog</Link>
+            </li>
           </ul>
         </nav>
 
