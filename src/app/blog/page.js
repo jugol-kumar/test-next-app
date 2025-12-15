@@ -13,20 +13,20 @@ export default function Blog() {
             title: 'Blog Tow Title.'
         }
     ]
-    
-  return (
- <>
-    <h1 className="text-4xl">Blogs</h1>
 
-    <ul>
-        {blogs.map((item) => (
-            <li key={item.id}>
-                <Link href={"/blog/"+item.id}>
-                    {item.title}
-                </Link>
-                </li>
-        ))}
-    </ul>
-</>
-  );
+    return (
+        <>
+            <h1 className="text-4xl">Blogs</h1>
+
+            <ul>
+                {blogs.map((item) => (
+                    <li key={item.id}>
+                        <Link href={"/blog/" + item.id}>
+                            {item.title}
+                        </Link>
+                    </li>
+                ))}
+            </ul>
+        </>
+    );
 }
